@@ -3,27 +3,89 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A308D32E249317B400C15A85 /* CATTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A308D32D249317B400C15A85 /* CATTabBarController.swift */; };
+		A308D3302493182F00C15A85 /* SubmittedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A308D32F2493182F00C15A85 /* SubmittedVC.swift */; };
+		A308D33324932FB400C15A85 /* CATProgressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A308D33224932FB400C15A85 /* CATProgressCell.swift */; };
+		A308D3372493312400C15A85 /* CATTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A308D3362493312400C15A85 /* CATTitleLabel.swift */; };
+		A3238E5B249CC9E2003C484B /* InProgressCollegeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3238E5A249CC9E2003C484B /* InProgressCollegeVC.swift */; };
+		A3238E61249D92D6003C484B /* CATSubmittedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3238E60249D92D6003C484B /* CATSubmittedCell.swift */; };
+		A3238E63249D92F3003C484B /* CATSubmittedCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3238E62249D92F3003C484B /* CATSubmittedCellView.swift */; };
+		A3238E65249DA600003C484B /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3238E64249DA600003C484B /* College.swift */; };
+		A3238E67249DC771003C484B /* InProgressCollege.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3238E66249DC771003C484B /* InProgressCollege.swift */; };
+		A3238E69249DC777003C484B /* SubmittedCollege.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3238E68249DC777003C484B /* SubmittedCollege.swift */; };
+		A3238E6B249DE830003C484B /* CATDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3238E6A249DE830003C484B /* CATDataLoadingVC.swift */; };
+		A34EAAB42495F46C00D13599 /* CATPickerTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34EAAB32495F46C00D13599 /* CATPickerTextfield.swift */; };
+		A34EAAB62495FDD800D13599 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34EAAB52495FDD800D13599 /* DateHelper.swift */; };
+		A375588A24A482E300B7617F /* AnimatedFieldFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A375588924A482E300B7617F /* AnimatedFieldFormat.swift */; };
+		A3A0494D249C591B0092CF02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3A0494C249C591B0092CF02 /* GoogleService-Info.plist */; };
+		A3A0494F249C5DAE0092CF02 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0494E249C5DAE0092CF02 /* PersistenceManager.swift */; };
 		A3AD611F24931390003F1BA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD611E24931390003F1BA8 /* AppDelegate.swift */; };
 		A3AD612124931390003F1BA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD612024931390003F1BA8 /* SceneDelegate.swift */; };
-		A3AD612324931390003F1BA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD612224931390003F1BA8 /* ViewController.swift */; };
-		A3AD612624931390003F1BA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AD612424931390003F1BA8 /* Main.storyboard */; };
 		A3AD612824931391003F1BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AD612724931391003F1BA8 /* Assets.xcassets */; };
 		A3AD612B24931391003F1BA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AD612924931391003F1BA8 /* LaunchScreen.storyboard */; };
+		A3AD61352493150E003F1BA8 /* InProgressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD61342493150E003F1BA8 /* InProgressVC.swift */; };
+		A3B0CF5224946D6600A50440 /* CATInProgressCellContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0CF5124946D6600A50440 /* CATInProgressCellContainerView.swift */; };
+		A3B0CF542494718A00A50440 /* CATBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0CF532494718A00A50440 /* CATBodyLabel.swift */; };
+		A3B0CF562494721D00A50440 /* CATSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0CF552494721D00A50440 /* CATSecondaryTitleLabel.swift */; };
+		A3CB96CD2494F32D005650C8 /* CATTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CB96CC2494F32D005650C8 /* CATTextField.swift */; };
+		A3CB96CF2494F3AE005650C8 /* AddCollegeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CB96CE2494F3AE005650C8 /* AddCollegeVC.swift */; };
+		A3CB96D12494F903005650C8 /* CATNewCollegeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CB96D02494F903005650C8 /* CATNewCollegeView.swift */; };
+		A3CB96D324950005005650C8 /* CATButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CB96D224950005005650C8 /* CATButton.swift */; };
+		A3CB96D52495D3DD005650C8 /* CATDateTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CB96D42495D3DD005650C8 /* CATDateTextfield.swift */; };
+		A3D3C1A5249468E10030B182 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3C1A4249468E10030B182 /* Constants.swift */; };
+		A3E6F1F7249795C0007D59AF /* CATPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E6F1F6249795C0007D59AF /* CATPickerView.swift */; };
+		A3F12D342498D20E00BEDCDC /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F12D332498D20E00BEDCDC /* UIViewController+ext.swift */; };
+		A3F12D362498D24200BEDCDC /* CATAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F12D352498D24200BEDCDC /* CATAlertContainerView.swift */; };
+		A3F12D382498D26A00BEDCDC /* CATAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F12D372498D26A00BEDCDC /* CATAlertVC.swift */; };
+		BF28114ACFC58428B7E8C3D8 /* Pods_College_Application_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1C7E0AD60555E1C27EB658 /* Pods_College_Application_Tracker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A3AD611B24931390003F1BA8 /* College Application Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College Application Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A308D32D249317B400C15A85 /* CATTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATTabBarController.swift; sourceTree = "<group>"; };
+		A308D32F2493182F00C15A85 /* SubmittedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmittedVC.swift; sourceTree = "<group>"; };
+		A308D33224932FB400C15A85 /* CATProgressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATProgressCell.swift; sourceTree = "<group>"; };
+		A308D3362493312400C15A85 /* CATTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATTitleLabel.swift; sourceTree = "<group>"; };
+		A3238E5A249CC9E2003C484B /* InProgressCollegeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProgressCollegeVC.swift; sourceTree = "<group>"; };
+		A3238E60249D92D6003C484B /* CATSubmittedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATSubmittedCell.swift; sourceTree = "<group>"; };
+		A3238E62249D92F3003C484B /* CATSubmittedCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATSubmittedCellView.swift; sourceTree = "<group>"; };
+		A3238E64249DA600003C484B /* College.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College.swift; sourceTree = "<group>"; };
+		A3238E66249DC771003C484B /* InProgressCollege.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProgressCollege.swift; sourceTree = "<group>"; };
+		A3238E68249DC777003C484B /* SubmittedCollege.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmittedCollege.swift; sourceTree = "<group>"; };
+		A3238E6A249DE830003C484B /* CATDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATDataLoadingVC.swift; sourceTree = "<group>"; };
+		A34EAAB32495F46C00D13599 /* CATPickerTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATPickerTextfield.swift; sourceTree = "<group>"; };
+		A34EAAB52495FDD800D13599 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		A375588924A482E300B7617F /* AnimatedFieldFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedFieldFormat.swift; sourceTree = "<group>"; };
+		A3A0494C249C591B0092CF02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A3A0494E249C5DAE0092CF02 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		A3AD611B24931390003F1BA8 /* College AppTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College AppTrack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AD611E24931390003F1BA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3AD612024931390003F1BA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A3AD612224931390003F1BA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A3AD612524931390003F1BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3AD612724931391003F1BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3AD612A24931391003F1BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3AD612C24931391003F1BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AD61342493150E003F1BA8 /* InProgressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProgressVC.swift; sourceTree = "<group>"; };
+		A3B0CF5124946D6600A50440 /* CATInProgressCellContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATInProgressCellContainerView.swift; sourceTree = "<group>"; };
+		A3B0CF532494718A00A50440 /* CATBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATBodyLabel.swift; sourceTree = "<group>"; };
+		A3B0CF552494721D00A50440 /* CATSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATSecondaryTitleLabel.swift; sourceTree = "<group>"; };
+		A3CB96CC2494F32D005650C8 /* CATTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATTextField.swift; sourceTree = "<group>"; };
+		A3CB96CE2494F3AE005650C8 /* AddCollegeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCollegeVC.swift; sourceTree = "<group>"; };
+		A3CB96D02494F903005650C8 /* CATNewCollegeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATNewCollegeView.swift; sourceTree = "<group>"; };
+		A3CB96D224950005005650C8 /* CATButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATButton.swift; sourceTree = "<group>"; };
+		A3CB96D42495D3DD005650C8 /* CATDateTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATDateTextfield.swift; sourceTree = "<group>"; };
+		A3D3C1A4249468E10030B182 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A3D41B6324A34A66007E2DDD /* timesnewroman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = timesnewroman.ttf; sourceTree = "<group>"; };
+		A3D41B6424A34A94007E2DDD /* futura.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futura.ttf; sourceTree = "<group>"; };
+		A3E6F1F6249795C0007D59AF /* CATPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATPickerView.swift; sourceTree = "<group>"; };
+		A3F12D332498D20E00BEDCDC /* UIViewController+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ext.swift"; sourceTree = "<group>"; };
+		A3F12D352498D24200BEDCDC /* CATAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATAlertContainerView.swift; sourceTree = "<group>"; };
+		A3F12D372498D26A00BEDCDC /* CATAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATAlertVC.swift; sourceTree = "<group>"; };
+		ABE122D921DD722AE760A6BC /* Pods-College Application Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College Application Tracker.debug.xcconfig"; path = "Target Support Files/Pods-College Application Tracker/Pods-College Application Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		BF2D8046FB0B9EB289E2D1E1 /* Pods-College Application Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College Application Tracker.release.xcconfig"; path = "Target Support Files/Pods-College Application Tracker/Pods-College Application Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		CB1C7E0AD60555E1C27EB658 /* Pods_College_Application_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_College_Application_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +93,94 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF28114ACFC58428B7E8C3D8 /* Pods_College_Application_Tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		152CA6C12783E37D19A1F4EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB1C7E0AD60555E1C27EB658 /* Pods_College_Application_Tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A308D32B2493179200C15A85 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3E6F1F5249795AB007D59AF /* PickerViews */,
+				A30DE2572497907D00057329 /* Buttons */,
+				A3CB96CB2494F315005650C8 /* Textfields */,
+				A3B0CF4E24946D2B00A50440 /* Views */,
+				A33EF0F82493C64C007C2DC6 /* ViewControllers */,
+				A308D3352493310E00C15A85 /* Labels */,
+				A308D33124932F9900C15A85 /* TableViewCells */,
+				A308D32C2493179B00C15A85 /* TabBarControllers */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		A308D32C2493179B00C15A85 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A308D32D249317B400C15A85 /* CATTabBarController.swift */,
+			);
+			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		A308D33124932F9900C15A85 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				A308D33224932FB400C15A85 /* CATProgressCell.swift */,
+				A3238E60249D92D6003C484B /* CATSubmittedCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		A308D3352493310E00C15A85 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				A308D3362493312400C15A85 /* CATTitleLabel.swift */,
+				A3B0CF532494718A00A50440 /* CATBodyLabel.swift */,
+				A3B0CF552494721D00A50440 /* CATSecondaryTitleLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		A30DE2572497907D00057329 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				A3CB96D224950005005650C8 /* CATButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		A33EF0F82493C64C007C2DC6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A3F12D372498D26A00BEDCDC /* CATAlertVC.swift */,
+				A3238E6A249DE830003C484B /* CATDataLoadingVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		A3AD61122493138F003F1BA8 = {
 			isa = PBXGroup;
 			children = (
 				A3AD611D24931390003F1BA8 /* College Application Tracker */,
 				A3AD611C24931390003F1BA8 /* Products */,
+				EF54DFB5459E26F1B67DC272 /* Pods */,
+				152CA6C12783E37D19A1F4EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A3AD611C24931390003F1BA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3AD611B24931390003F1BA8 /* College Application Tracker.app */,
+				A3AD611B24931390003F1BA8 /* College AppTrack.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +188,115 @@
 		A3AD611D24931390003F1BA8 /* College Application Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				A3D41B6224A34A59007E2DDD /* Fonts */,
+				A3A0494C249C591B0092CF02 /* GoogleService-Info.plist */,
+				A3F12D322498D1F100BEDCDC /* Extensions */,
+				A3D3C1A3249468B50030B182 /* Utilities */,
+				A3D3C1A0249468660030B182 /* Models */,
+				A308D32B2493179200C15A85 /* Custom Views */,
+				A3AD6133249314F0003F1BA8 /* Screens */,
+				A3AD6132249314E9003F1BA8 /* Support */,
+			);
+			path = "College Application Tracker";
+			sourceTree = "<group>";
+		};
+		A3AD6132249314E9003F1BA8 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				A3AD611E24931390003F1BA8 /* AppDelegate.swift */,
 				A3AD612024931390003F1BA8 /* SceneDelegate.swift */,
-				A3AD612224931390003F1BA8 /* ViewController.swift */,
-				A3AD612424931390003F1BA8 /* Main.storyboard */,
 				A3AD612724931391003F1BA8 /* Assets.xcassets */,
 				A3AD612924931391003F1BA8 /* LaunchScreen.storyboard */,
 				A3AD612C24931391003F1BA8 /* Info.plist */,
 			);
-			path = "College Application Tracker";
+			path = Support;
+			sourceTree = "<group>";
+		};
+		A3AD6133249314F0003F1BA8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A3AD61342493150E003F1BA8 /* InProgressVC.swift */,
+				A3238E5A249CC9E2003C484B /* InProgressCollegeVC.swift */,
+				A3CB96CE2494F3AE005650C8 /* AddCollegeVC.swift */,
+				A308D32F2493182F00C15A85 /* SubmittedVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A3B0CF4E24946D2B00A50440 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3B0CF5124946D6600A50440 /* CATInProgressCellContainerView.swift */,
+				A3238E62249D92F3003C484B /* CATSubmittedCellView.swift */,
+				A3CB96D02494F903005650C8 /* CATNewCollegeView.swift */,
+				A3F12D352498D24200BEDCDC /* CATAlertContainerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A3CB96CB2494F315005650C8 /* Textfields */ = {
+			isa = PBXGroup;
+			children = (
+				A3CB96CC2494F32D005650C8 /* CATTextField.swift */,
+				A3CB96D42495D3DD005650C8 /* CATDateTextfield.swift */,
+				A34EAAB32495F46C00D13599 /* CATPickerTextfield.swift */,
+			);
+			path = Textfields;
+			sourceTree = "<group>";
+		};
+		A3D3C1A0249468660030B182 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A3238E64249DA600003C484B /* College.swift */,
+				A3238E66249DC771003C484B /* InProgressCollege.swift */,
+				A3238E68249DC777003C484B /* SubmittedCollege.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A3D3C1A3249468B50030B182 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A3D3C1A4249468E10030B182 /* Constants.swift */,
+				A34EAAB52495FDD800D13599 /* DateHelper.swift */,
+				A3A0494E249C5DAE0092CF02 /* PersistenceManager.swift */,
+				A375588924A482E300B7617F /* AnimatedFieldFormat.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A3D41B6224A34A59007E2DDD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A3D41B6324A34A66007E2DDD /* timesnewroman.ttf */,
+				A3D41B6424A34A94007E2DDD /* futura.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A3E6F1F5249795AB007D59AF /* PickerViews */ = {
+			isa = PBXGroup;
+			children = (
+				A3E6F1F6249795C0007D59AF /* CATPickerView.swift */,
+			);
+			path = PickerViews;
+			sourceTree = "<group>";
+		};
+		A3F12D322498D1F100BEDCDC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A3F12D332498D20E00BEDCDC /* UIViewController+ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EF54DFB5459E26F1B67DC272 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABE122D921DD722AE760A6BC /* Pods-College Application Tracker.debug.xcconfig */,
+				BF2D8046FB0B9EB289E2D1E1 /* Pods-College Application Tracker.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +306,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3AD612F24931391003F1BA8 /* Build configuration list for PBXNativeTarget "College Application Tracker" */;
 			buildPhases = (
+				CF05CCE1EDC8E8ADF85D59B0 /* [CP] Check Pods Manifest.lock */,
 				A3AD611724931390003F1BA8 /* Sources */,
 				A3AD611824931390003F1BA8 /* Frameworks */,
 				A3AD611924931390003F1BA8 /* Resources */,
+				51A56ED9ED3CAF3F959533B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +318,7 @@
 			);
 			name = "College Application Tracker";
 			productName = "College Application Tracker";
-			productReference = A3AD611B24931390003F1BA8 /* College Application Tracker.app */;
+			productReference = A3AD611B24931390003F1BA8 /* College AppTrack.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,19 +361,89 @@
 			files = (
 				A3AD612B24931391003F1BA8 /* LaunchScreen.storyboard in Resources */,
 				A3AD612824931391003F1BA8 /* Assets.xcassets in Resources */,
-				A3AD612624931390003F1BA8 /* Main.storyboard in Resources */,
+				A3A0494D249C591B0092CF02 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51A56ED9ED3CAF3F959533B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-College Application Tracker/Pods-College Application Tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-College Application Tracker/Pods-College Application Tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-College Application Tracker/Pods-College Application Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF05CCE1EDC8E8ADF85D59B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-College Application Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A3AD611724931390003F1BA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3AD612324931390003F1BA8 /* ViewController.swift in Sources */,
+				A308D32E249317B400C15A85 /* CATTabBarController.swift in Sources */,
+				A3238E63249D92F3003C484B /* CATSubmittedCellView.swift in Sources */,
+				A3238E61249D92D6003C484B /* CATSubmittedCell.swift in Sources */,
+				A308D3302493182F00C15A85 /* SubmittedVC.swift in Sources */,
+				A3AD61352493150E003F1BA8 /* InProgressVC.swift in Sources */,
+				A3238E67249DC771003C484B /* InProgressCollege.swift in Sources */,
+				A3A0494F249C5DAE0092CF02 /* PersistenceManager.swift in Sources */,
+				A34EAAB42495F46C00D13599 /* CATPickerTextfield.swift in Sources */,
+				A3CB96CD2494F32D005650C8 /* CATTextField.swift in Sources */,
+				A3B0CF542494718A00A50440 /* CATBodyLabel.swift in Sources */,
+				A375588A24A482E300B7617F /* AnimatedFieldFormat.swift in Sources */,
+				A3CB96CF2494F3AE005650C8 /* AddCollegeVC.swift in Sources */,
+				A3B0CF562494721D00A50440 /* CATSecondaryTitleLabel.swift in Sources */,
+				A3F12D342498D20E00BEDCDC /* UIViewController+ext.swift in Sources */,
+				A34EAAB62495FDD800D13599 /* DateHelper.swift in Sources */,
+				A3D3C1A5249468E10030B182 /* Constants.swift in Sources */,
+				A3E6F1F7249795C0007D59AF /* CATPickerView.swift in Sources */,
+				A3B0CF5224946D6600A50440 /* CATInProgressCellContainerView.swift in Sources */,
+				A308D3372493312400C15A85 /* CATTitleLabel.swift in Sources */,
+				A308D33324932FB400C15A85 /* CATProgressCell.swift in Sources */,
 				A3AD611F24931390003F1BA8 /* AppDelegate.swift in Sources */,
+				A3F12D382498D26A00BEDCDC /* CATAlertVC.swift in Sources */,
+				A3238E69249DC777003C484B /* SubmittedCollege.swift in Sources */,
+				A3238E6B249DE830003C484B /* CATDataLoadingVC.swift in Sources */,
+				A3CB96D52495D3DD005650C8 /* CATDateTextfield.swift in Sources */,
+				A3F12D362498D24200BEDCDC /* CATAlertContainerView.swift in Sources */,
+				A3CB96D12494F903005650C8 /* CATNewCollegeView.swift in Sources */,
+				A3CB96D324950005005650C8 /* CATButton.swift in Sources */,
+				A3238E5B249CC9E2003C484B /* InProgressCollegeVC.swift in Sources */,
+				A3238E65249DA600003C484B /* College.swift in Sources */,
 				A3AD612124931390003F1BA8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +451,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A3AD612424931390003F1BA8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3AD612524931390003F1BA8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A3AD612924931391003F1BA8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,37 +578,39 @@
 		};
 		A3AD613024931391003F1BA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE122D921DD722AE760A6BC /* Pods-College Application Tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39QYXNZ8BL;
-				INFOPLIST_FILE = "College Application Tracker/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/College Application Tracker/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AllenSu.College-Application-Tracker";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "College AppTrack";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A3AD613124931391003F1BA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF2D8046FB0B9EB289E2D1E1 /* Pods-College Application Tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39QYXNZ8BL;
-				INFOPLIST_FILE = "College Application Tracker/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/College Application Tracker/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AllenSu.College-Application-Tracker";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "College AppTrack";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
